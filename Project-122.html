@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>getElementsByClassName Example</title>
+</head>
+<body>
+<p class="item">Whatsapp</p>
+<p class="item">Whatsapp</p>
+<button onclick="updateItems()">Update Pinterest</button>
+<script>
+function updateItems() {
+const items = document.getElementsByClassName("item");
+items[0].textContent = "Pinterest is updated!";
+}
+</script>
+</body>
